@@ -1,3 +1,52 @@
-// Place all the styles related to the Questions controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 8px 0;
+}
+
+p {
+  margin: 4px 0;
+}
+
+.container-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#question {
+  flex-grow: 1;
+  margin-right: 4px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.btn-blue {
+  background-color: #3279B7;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 8px;
+}
+
+.chat {
+  border-left: 4px solid #DDDDDD;
+  padding: 8px;
+  line-height: 24px;
+  margin: 16px 0;
+}
+
+.answer {
+  background-color: #FFFFE1;
+}
+
+.backlink {
+  font-weight: bold;
+}
+
+
