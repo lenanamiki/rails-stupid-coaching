@@ -1,7 +1,8 @@
-<p><%= params[:question] %><br>-You</p>
+<p class="chat"><%= params[:question] %><br>-You</p>
 
-<p><%= @answer %><br>-Your Coach</p>
+<p class="chat answer"><%= @answer %><br>-Your Coach</p>
 
-<%= link_to "Ask a new question", ask_path %>
+<p class="backlink"><%= link_to "Ask a new question", ask_path %></p>
+
 
 
